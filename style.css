@@ -22,6 +22,7 @@ display:none;
 
 
 
+
 .dashboard{
 
 
@@ -34,7 +35,6 @@ height:100vh;
 
 
 
-/* STATIC SIDEBAR */
 
 
 .sidebar{
@@ -59,6 +59,8 @@ height:100%;
 
 
 
+
+
 .sidebar h1{
 
 
@@ -68,6 +70,7 @@ color:#39ff14;
 
 
 }
+
 
 
 
@@ -95,9 +98,9 @@ display:block;
 
 background:#151515;
 
-padding:20px;
+padding:18px;
 
-margin-bottom:15px;
+margin-bottom:12px;
 
 border-left:5px solid #39ff14;
 
@@ -109,6 +112,8 @@ cursor:pointer;
 
 
 }
+
+
 
 
 
@@ -158,43 +163,55 @@ display:none;
 
 
 
-#command:checked ~ .dashboard .command-page{
 
+
+#command:checked ~ .dashboard .command-page{
 
 display:block;
 
-
 }
+
+
 
 
 
 #intel:checked ~ .dashboard .intel-page{
 
-
 display:block;
 
-
 }
+
+
 
 
 
 #operations:checked ~ .dashboard .operations-page{
 
-
 display:block;
 
-
 }
+
+
 
 
 
 #reports:checked ~ .dashboard .reports-page{
 
+display:block;
+
+}
+
+
+
+
+
+#about:checked ~ .dashboard .about-page{
 
 display:block;
 
-
 }
+
+
 
 
 
@@ -218,6 +235,8 @@ padding-bottom:15px;
 
 
 
+
+
 .mission-box{
 
 
@@ -229,6 +248,7 @@ padding:35px;
 
 
 }
+
 
 
 
@@ -259,6 +279,8 @@ line-height:1.8;
 
 
 
+
+
 .intel-grid{
 
 
@@ -270,6 +292,8 @@ gap:25px;
 
 
 }
+
+
 
 
 
