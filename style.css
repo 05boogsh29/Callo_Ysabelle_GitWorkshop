@@ -14,14 +14,11 @@ color:white;
 
 
 
-/* HIDE RADIO BUTTONS */
-
 input{
 
 display:none;
 
 }
-
 
 
 
@@ -34,9 +31,6 @@ height:100vh;
 
 
 }
-
-
-
 
 
 
@@ -72,6 +66,7 @@ font-size:40px;
 
 color:#39ff14;
 
+
 }
 
 
@@ -80,7 +75,7 @@ color:#39ff14;
 .sidebar p{
 
 
-color:#777;
+color:#888;
 
 letter-spacing:3px;
 
@@ -88,8 +83,6 @@ margin-bottom:40px;
 
 
 }
-
-
 
 
 
@@ -119,6 +112,8 @@ cursor:pointer;
 
 
 
+
+
 .sidebar label:hover{
 
 
@@ -131,9 +126,6 @@ background:#222;
 
 
 
-
-
-/* CONTENT AREA */
 
 
 .content{
@@ -166,30 +158,6 @@ display:none;
 
 
 
-
-h2{
-
-
-color:#39ff14;
-
-font-size:38px;
-
-border-bottom:2px solid #39ff14;
-
-padding-bottom:15px;
-
-
-}
-
-
-
-
-
-
-
-/* SHOW ACTIVE CONTENT */
-
-
 #command:checked ~ .dashboard .command-page{
 
 
@@ -210,6 +178,42 @@ display:block;
 
 
 
+#operations:checked ~ .dashboard .operations-page{
+
+
+display:block;
+
+
+}
+
+
+
+#reports:checked ~ .dashboard .reports-page{
+
+
+display:block;
+
+
+}
+
+
+
+
+
+h2{
+
+
+color:#39ff14;
+
+font-size:38px;
+
+border-bottom:2px solid #39ff14;
+
+padding-bottom:15px;
+
+
+}
+
 
 
 
@@ -223,11 +227,8 @@ border:2px solid #39ff14;
 
 padding:35px;
 
-margin-top:30px;
-
 
 }
-
 
 
 
@@ -239,6 +240,7 @@ color:#39ff14;
 
 
 }
+
 
 
 
@@ -257,9 +259,6 @@ line-height:1.8;
 
 
 
-
-
-
 .intel-grid{
 
 
@@ -269,12 +268,8 @@ grid-template-columns:repeat(2,1fr);
 
 gap:25px;
 
-margin-top:30px;
-
 
 }
-
-
 
 
 
@@ -303,7 +298,6 @@ border-color:#39ff14;
 
 
 }
-
 
 
 
